@@ -1,2 +1,0 @@
-# DataVizReactApp
-Created with CodeSandbox
