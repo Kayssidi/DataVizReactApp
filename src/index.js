@@ -1,17 +1,6 @@
-import React from 'react';
-import { render } from 'react-dom';
-import Hello from './Hello';
+import React from "react";
+import { render } from "react-dom";
 
-const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
-};
+import PageD3 from "./pages/pageD3";
 
-const App = () => (
-  <div style={styles}>
-    <Hello name="CodeSandbox" />
-    <h2>Start editing to see some magic happen {'\u2728'}</h2>
-  </div>
-);
-
-render(<App />, document.getElementById('root'));
+render(<PageD3 />, document.getElementById("root"));
